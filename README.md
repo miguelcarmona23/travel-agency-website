@@ -1,4 +1,4 @@
-# Scratch Project
+# Travel Agency Website
 
-Scratch Project is a project that I'm building from scratch that has no real purpose as of yet.
+This is a mockup project for a travel agency website. This project uses HTML and CSS(Bulma).
 
