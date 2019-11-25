@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Universal Travel</title>
   <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/761/761488.svg" type="image/icon type">
+
   <!-- Bulma Version 0.8.x-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
@@ -20,11 +22,11 @@
         <img src="img/world.svg" alt="Universal travel logo"
           width="55" height="28">Universal Travel
       </a>
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <div class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+    </div>
     </div>
 
     <div id="navbarExampleTransparentExample" class="navbar-menu">
@@ -353,6 +355,8 @@
     </div>
   </footer>
   <script src="../js/bulma.js"></script>
+  <script src="jquery.js"></script>
+
 </body>
 
 </html>
